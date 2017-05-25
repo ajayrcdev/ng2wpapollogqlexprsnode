@@ -28,10 +28,11 @@ A seed repo as NPM Module with Client and Server as separate apps deployable on 
        * README.md
        * CHANGELOG.md
     4) keep the residual files/folder in root folder
-    5) "npm i"
-    6) "npm run start" and verify the app working
-    7) added Client and Server folder and moved Angular code there
-    8) moved .gitignore file to root and changed path to client/src...
+    5) added Client and Server folder and moved Angular code there
+    6) moved .gitignore file to root and changed path to client/src...
+    7) "npm i"
+    8) "npm run start" and verify the app working
+    9) other commands like "npm run test" , "npm run e2e", "npm run lint" would work too
 * Server:
     * NodeJs
     * ExpressJs
