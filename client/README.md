@@ -54,3 +54,6 @@ A seed repo as Client and Server as separate apps (and NPM modules) deployable o
     * Using quickstart (the way i did here): https://angular.io/docs/ts/latest/quickstart.html
     * or using Angular CLI - easier way : https://angular.io/docs/ts/latest/cli-quickstart.html
 * Installing and testing Typesript: http://blog.teamtreehouse.com/getting-started-typescript
+* ExpressJs : 
+    * https://expressjs.com/en/starter/hello-world.html 
+    * https://expressjs.com/en/guide/routing.html    
