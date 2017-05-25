@@ -1,6 +1,6 @@
 # ng2 wp apollo gql exprs node
-A seed repo as NPM Module with Client and Server as separate apps deployable on Docker and Nginx proxy.
-(Typescript and ES6 are used whever possible)
+A seed repo as Client and Server as separate apps (and NPM modules) deployable on Docker and Nginx proxy.
+(Typescript and ES6 are used wherever possible)
 * Client
     * Angular2+ 
     * TypeScript 
