@@ -1,5 +1,5 @@
 .idea
-client/node_modules
+**/node_modules
 client/jspm_packages
 client/npm-debug.log
 client/debug.log
