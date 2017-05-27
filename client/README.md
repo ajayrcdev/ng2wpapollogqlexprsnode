@@ -1,5 +1,5 @@
-# ng2 wp apollo gql exprs node
-A seed repo as Client and Server as separate apps (and NPM modules) deployable on Docker and Nginx proxy.
+# angular webpack apollo graphQL express node
+A seed repo with Client and Server as separate apps (and NPM modules) deployable on Docker and Nginx proxy.
 (Typescript and ES6 are used wherever possible)
 * Client
     * Angular2+ 
@@ -21,7 +21,7 @@ A seed repo as Client and Server as separate apps (and NPM modules) deployable o
     1) download/clone angular seed https://github.com/angular/quickstart to a separate folder
     2) checkout tag/branch of your choice. i did "git checkout 4.0.0" to get ngv 4
     3) Delete non-essential files as metioned in read me of quickstart.
-       i removed following: 
+       i removed following:
        * .git
        * LICENSE
        * non-essential-files.txt
@@ -35,7 +35,7 @@ A seed repo as Client and Server as separate apps (and NPM modules) deployable o
     8) "npm run start" and verify the app working
     9) other commands like "npm run test" , "npm run e2e", "npm run lint" would work too
 * Server:
-    * ExpressJs on NodeJs :
+    * ExpressJs on NodeJs:
         1) "npm init" to create new npm module for server
         2) "npm i express --save" to install express js server
         3) write necessary routes and listners for required port (i am using 9090)
