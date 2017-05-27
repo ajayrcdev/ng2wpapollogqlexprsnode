@@ -15,9 +15,9 @@ A seed repo with Client and Server as separate apps (and NPM modules) deployable
     * Docker
 * Nginx
 
-# steps used to make this repo
+# steps used to make this repo in that order
 * Client:
- * Angular(4.0.0):
+    * Angular(4.0.0):
     1) download/clone angular seed https://github.com/angular/quickstart to a separate folder
     2) checkout tag/branch of your choice. i did "git checkout 4.0.0" to get ngv 4
     3) Delete non-essential files as metioned in read me of quickstart.
@@ -41,11 +41,18 @@ A seed repo with Client and Server as separate apps (and NPM modules) deployable
         3) write necessary routes and listners for required port (i am using 9090)
         4) "node index.js" and open browse with localhost:9090/ to test the server is running
         5) fixed gitignore to remove all node_modules and not just that of the client
+* Client+Server communication:
+    1) Add CORS on serverside (to allow requests from another domain on localhost)
+    1) Add a (ng) service to client component to get data from serer
+    2) Call server (localhost:9090/) and show the response   
 * GraphQL:
     * Schema:
     * Resolvers: 
     * Mocks
 * Apollo:
+    1) Add Apollo Angular in client as dependency
+    2) Replace http call with Apollo Query in service
+    3) Call the Apollo Query to get the same data as service
 * Webpack:
 * Docker: 
 
