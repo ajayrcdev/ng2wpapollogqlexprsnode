@@ -64,3 +64,10 @@ A seed repo with Client and Server as separate apps (and NPM modules) deployable
 * ExpressJs : 
     * https://expressjs.com/en/starter/hello-world.html 
     * https://expressjs.com/en/guide/routing.html    
+* Apollo:
+    * http://dev.apollodata.com/angular2/
+    * System Js Configs: https://github.com/Urigo/angular.io/blob/graphql-cookbook/public/docs/_examples/heroes-graphql/ts/src/systemjs.config.extras.js
+    * https://github.com/apollographql/GitHunt-Angular
+    * http://dev.apollodata.com/angular2/auth.html 
+    * https://developer.github.com/v3/
+    
